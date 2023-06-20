@@ -16,4 +16,6 @@ const sr = ScrollReveal ({
 sr.reveal('.hero-text',{delay:200, origin :'top'});
 sr.reveal('.hero-img',{delay:300, origin :'right'});
 sr.reveal('.hero-img-pro',{delay:300, origin :'right'});
-sr.reveal('.form-container',{delay:300, origin :'right'});
+sr.reveal('.hero-text-pro',{delay:200, origin :'left'});
+sr.reveal('.form-container',{delay:300, origin :'bottom'});
+sr.reveal('')

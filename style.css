@@ -416,3 +416,65 @@ section{
 .form-container button:hover {
     background-color: #162369;
 }
+
+
+
+.container-profil{
+    display: flex;
+    flex-direction: column;
+}
+
+.image-profil img{
+    height: 500px;
+    width: auto;
+    
+}
+
+.image-profil{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    gap: 30px;
+}
+
+.formation-profil{
+    color: white;
+    width: 300px;
+}
+
+.titre-formation{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.contenue-formation{
+    margin-bottom: 30px;
+}
+
+.cv{
+    background-color: white;
+    border-radius: 16px;
+    padding: 15px 25px;
+    font-weight: bold;
+    border: none;
+}
+
+.cv:hover{
+    transition: 0.4s;
+    background-color: transparent;
+    border: white solid 2px ;
+    color: white;
+    cursor: pointer;
+}
+
+.container-cv{
+    display: flex;
+}
