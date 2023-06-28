@@ -22,3 +22,8 @@ function togglePopupEntreprendre(){
     let popup = document.querySelector("#popup-overlay5");
     popup.classList.toggle("open");
 }
+
+function togglePopupStage(){
+    let popup = document.querySelector("#popup-overlay6");
+    popup.classList.toggle("open");
+}

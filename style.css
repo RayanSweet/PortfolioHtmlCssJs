@@ -491,7 +491,7 @@ section{
 }
 
 .container-mmi{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 100%;
     height: auto;
     display: flex;
@@ -727,8 +727,67 @@ section{
     display: inline-block;
 }
 
+#popup-overlay6{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.247);
+    z-index: 98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+#popup-overlay6.open{
+    display: flex;
+}
+
+.popup-content6{
+    max-width: 1200px;
+    width: 100%;
+    padding: 30px;
+    box-sizing:border-box;
+    background-color: white;
+}
+
+.popup-content6 p{
+    margin: 20px 0;
+}
+
+.popup-btn6{
+    text-decoration: none;
+    color: white;
+    background: #ce5cbf;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
 .more{
     color: white;
     font-weight: bold;
 }
 
+.top-mmi{
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+}
+
+.top-mmi h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-mmi p{
+    margin-bottom: 20px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
