@@ -791,3 +791,7 @@ span{
     font-weight: bold;
     font-size: 20px;
 }
+
+.popup-content h2{
+    font-size: 50px;
+}
