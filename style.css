@@ -567,3 +567,8 @@ section{
     border-radius: 5px;
     display: inline-block;
 }
+
+.more{
+    color: white;
+    font-weight: bold;
+}
