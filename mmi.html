@@ -46,34 +46,30 @@
       <div class="bx bx-menu" id="menu-icon"></div>
     </header>
 
-    <section class="hero-contact">
-        <div class="form-container">
-            <form action="https://formspree.io/f/xoqoadwy" method="POST">
-                <label for="name">First Name :</label>
-                <input type="text" name="first" placeholder="Name here" autocomplete="off">
+    <section class="hero-mmi">
+      <div class="container-mmi">
+        <div class="box"><a href="#" id="Comprendre" onclick="togglePopupComprendre()"><h2>Comprendre</h2></a></div>
+        <div class="box"><a href="#" id="Concevoir" onclick="togglePopupComprendre()" ><h2>Concevoir</h2></a></div>
+        <div class="box"><a href="#" id="Exprimer" onclick="togglePopupComprendre()"><h2>Exprimer</h2></a></div>
+        <div class="box"><a href="#" id="Développer" onclick="togglePopupComprendre()"><h2>Développer</h2></a></div>
+        <div class="box"><a href="#" id="Entreprendre" onclick="togglePopupComprendre()"><h2>Entreprendre</h2></a></div>
+        <div class="box"></div>
+      </div>
 
-                <label for="name">Last Name :</label>
-                <input type="text" name="last" placeholder="Name here" autocomplete="off">
-    
-                <label for="email">Email :</label>
-                <input type="email" name="email" placeholder="Email Address" autocomplete="off">
-
-                <label for="message">Your message :</label>
-                <textarea name="Message" placeholder="Enter text"  cols="60" rows="5" autocomplete="off"  ></textarea>
-    
-                <button type="submit" id="btn">Send Message</button>
-            </form>
+      <div id="popup-overlay">
+        <div class="popup-content">
+          <h2>First pop up</h2>
+          <p>test</p>
+          <a href="javascript:void(0)" class="popup-btn" onclick="togglePopupComprendre()">Close</a>
         </div>
-
+      </div>
     </section>
 
-    
-  </body>
+    <!--custom reveal link-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--custom js link-->
+    <script src="js/script.js"></script>
 
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
-  <!--custom reveal link-->
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <!--custom js link-->
-  <script src="js/script.js"></script>
-  
+    <script src="js/popup.js"></script>
+  </body>
 </html>
