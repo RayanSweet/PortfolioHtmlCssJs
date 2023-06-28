@@ -18,4 +18,4 @@ sr.reveal('.hero-img',{delay:300, origin :'right'});
 sr.reveal('.hero-img-pro',{delay:300, origin :'right'});
 sr.reveal('.hero-text-pro',{delay:200, origin :'left'});
 sr.reveal('.form-container',{delay:300, origin :'bottom'});
-sr.reveal('')
+sr.reveal('.icons',{delay:300, origin :'top'});
