@@ -548,14 +548,18 @@ section{
 }
 
 .popup-content{
+    overflow: scroll;
     max-width: 1200px;
     width: 100%;
     padding: 30px;
     box-sizing:border-box;
     background-color: white;
+    text-align: center;
+    height: 50em;
 }
 .popup-content H2{
     text-align: center;
+    color: #580416;
 }
 
 .popup-content p{
@@ -590,15 +594,25 @@ section{
 }
 
 .popup-content2{
+    overflow: scroll;
     max-width: 1200px;
     width: 100%;
     padding: 30px;
     box-sizing:border-box;
     background-color: white;
+    text-align: center;
+    height: 50em;
 }
 
 .popup-content2 p{
     margin: 20px 0;
+}
+
+.popup-content2 h2{
+    color: #580416;
+    font-weight: bold;
+    font-size: 35px;
+    font: bolder;
 }
 
 .popup-btn2{
@@ -629,11 +643,25 @@ section{
 }
 
 .popup-content3{
+    overflow: scroll;
     max-width: 1200px;
     width: 100%;
     padding: 30px;
     box-sizing:border-box;
     background-color: white;
+    text-align: center;
+    height: 50em;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.popup-content3 h2{
+    color: #580416;
+    font-weight: bold;
+    font-size: 35px;
+    font: bolder;
 }
 
 .popup-content3 p{
@@ -676,6 +704,7 @@ section{
     background-color: white;
     text-align: center;
     height: 50em;
+    align-items: flex-start;
 }
 
 .popup-content4 h2{
@@ -723,11 +752,13 @@ section{
 }
 
 .popup-content5{
+    overflow: scroll;
     max-width: 1200px;
     width: 100%;
     padding: 30px;
     box-sizing:border-box;
     background-color: white;
+    height: 50em;
 }
 
 .popup-content5 p{
@@ -762,11 +793,13 @@ section{
 }
 
 .popup-content6{
+    overflow: scroll;
     max-width: 1200px;
     width: 100%;
     padding: 30px;
     box-sizing:border-box;
     background-color: white;
+    height: 50em;
 }
 
 .popup-content6 p{
