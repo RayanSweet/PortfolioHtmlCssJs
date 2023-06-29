@@ -19,3 +19,5 @@ sr.reveal('.hero-img-pro',{delay:300, origin :'right'});
 sr.reveal('.hero-text-pro',{delay:200, origin :'left'});
 sr.reveal('.form-container',{delay:300, origin :'bottom'});
 sr.reveal('.icons',{delay:300, origin :'top'});
+sr.reveal('.container-mmi',{delay:300, origin :'right'});
+sr.reveal('.top-mmi',{delay:300, origin :'left'});

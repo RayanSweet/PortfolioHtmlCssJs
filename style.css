@@ -804,6 +804,7 @@ section{
     max-width: 1200px;
     width: 100%;
     padding: 30px;
+    text-align: center;
     box-sizing:border-box;
     background-color: white;
     height: 50em;
@@ -820,6 +821,13 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     display: inline-block;
+}
+
+.popup-content6 h2{
+    color: #580416;
+    font-weight: bold;
+    font-size: 35px;
+    font: bolder;
 }
 .more{
     color: white;
