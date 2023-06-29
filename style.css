@@ -908,3 +908,7 @@ span{
 .slider-nav a:hover{
     opacity: 1;
 }
+
+.titre-secondaire{
+    font-size: 15px;
+}
