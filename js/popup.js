@@ -6,6 +6,7 @@ function togglePopupComprendre(){
 function togglePopupConcevoir(){
     let popup = document.querySelector("#popup-overlay2");
     popup.classList.toggle("open");
+
 }
 
 function togglePopupExprimer(){
@@ -21,6 +22,7 @@ function togglePopupDevelopper(){
 function togglePopupEntreprendre(){
     let popup = document.querySelector("#popup-overlay5");
     popup.classList.toggle("open");
+
 }
 
 function togglePopupStage(){
