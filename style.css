@@ -758,9 +758,16 @@ section{
     padding: 30px;
     box-sizing:border-box;
     background-color: white;
+    text-align: center;
     height: 50em;
 }
 
+.popup-content5 h2{
+    color: #580416;
+    font-weight: bold;
+    font-size: 35px;
+    font: bolder;
+}
 .popup-content5 p{
     margin: 20px 0;
 }
